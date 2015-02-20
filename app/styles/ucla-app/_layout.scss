@@ -1,0 +1,26 @@
+body {
+  background: url('../images/bg-door.jpg') no-repeat;
+  background-size: cover;
+}
+
+.signin {
+  margin: 7em auto;
+  width: 14em;
+  display: block;
+  font-size: $h2-font-size;
+}
+
+.box-help {
+  background: $ucla-gold;
+  border-radius: $global-border-radius;
+  width: 19em;
+  float: left;
+  margin-left: $double-spacing;
+  padding: 0 $default-spacing;
+  h2 {
+    background: $black;
+    color: $ucla-gold;
+    text-align: center;
+    padding: $half-spacing;
+  }
+}
